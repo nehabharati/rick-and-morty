@@ -1,0 +1,87 @@
+
+[class^='ais-'] {
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+a[class^='ais-'] {
+  color: #21243d;
+  text-decoration: none;
+}
+ 
+[class^='ais-'][class$='--disabled'], 
+[class^='ais-'][class$='--disabled'] * {
+  cursor: not-allowed;
+}
+
+.ais-Breadcrumb,
+.ais-ClearRefinements,
+.ais-CurrentRefinements,
+.ais-ClearRefinements-button,
+.ais-GeoSearch,
+.ais-HierarchicalMenu,
+.ais-Hits,
+.ais-Results,
+.ais-HitsPerPage,
+.ais-ResultsPerPage,
+.ais-InfiniteHits,
+.ais-InfiniteResults,
+.ais-Menu,
+.ais-MenuSelect,
+.ais-NumericMenu,
+.ais-NumericSelector,
+.ais-Pagination,
+.ais-Panel,
+.ais-PoweredBy,
+.ais-RangeInput,
+.ais-RangeSlider,
+.ais-RatingMenu,
+.ais-RefinementList,
+.ais-SearchBox,
+.ais-SortBy,
+.ais-SortBy-select,
+.ais-HitsPerPage-select,
+.ais-Stats,
+.ais-ToggleRefinement {
+  color: #21243d;
+  font-size: 0.75rem;
+}
+
+/* Highlighting */
+
+.ais-Highlight-highlighted,
+.ais-Snippet-highlighted {
+  background: rgba(226, 164, 0, 0.4);
+  background-color: aquamarine;
+}
+
+/* Hits */
+
+.ais-Hits-list {
+  display: grid; 
+   grid-template-columns: 1fr;
+}
+
+.ais-Hits-list > * {
+    display: block; 
+     width: auto; 
+  }
+
+@media (min-width: 680px) {
+  .ais-Hits-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .ais-Hits-list { 
+    grid-template-columns: 1fr  1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ais-Hits-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+ 
